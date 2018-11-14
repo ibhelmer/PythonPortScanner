@@ -27,7 +27,6 @@ t1 = datetime.now()
 # Using the range function to specify ports (here it will scans all ports between 1 and 1024)
 
 # We also put in some error handling for catching errors
-
 try:
     for port in range(1,1025):  
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
